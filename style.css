@@ -1,0 +1,14 @@
+.container{
+    width: 300px;
+    margin: 20% auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container >div{
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 70px;
+}
