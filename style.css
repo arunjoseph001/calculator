@@ -1,14 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
 .container{
     width: 300px;
     margin: 20% auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-items: stretch;
 }
 
 .container >div{
-    height: 80px;
-    width: 80px;
-    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgba(0,0,0,.2);
     text-align: center;
-    line-height: 70px;
+    line-height: 100px;
+    background: tomato;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.result{
+    flex: 2 0 100%;
+    text-align: right;
 }
